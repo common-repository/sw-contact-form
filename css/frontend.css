@@ -1,0 +1,109 @@
+@import url(style1.css);
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+.form_error{
+  display:none;
+}
+.clear{
+	clear:both;
+}
+#msg{
+	display:none;
+	text-align: center;
+	font-size: 15px;
+	color:navy;
+}
+/*
+#sw-contact-form{
+background: whitesmoke;
+padding: 8px;
+}
+#sw-contact-form p{
+margin:0px;
+}
+#sw-form{
+padding:3px;
+margin-bottom:6px;
+}
+#sw-contact-form #sw-form p{
+float:left;
+padding:3px;
+}
+#sw-form  div{
+padding:1px;
+overflow:hidden;
+}
+#sw-form .field-sec{
+  padding:3px !important;
+}
+#sw-form p label{
+vertical-align: top;
+width: 130px;
+padding: 4px;
+display:block;
+text-transform:capitalize;
+font-size:13px;
+}
+#sw-form p input[type=text],#sw-form p input[type=email]{
+width: 320px;
+padding: 7px 7px;
+border: 1px solid #d1d1d1;
+border-radius:3px;
+font-size:13px;
+}
+#sw-form p textarea{
+width: 320px;
+height: 130px;
+border-radius: 3px;
+font-size: 13px;
+padding: 1px 6px;
+border: 1px solid #d1d1d1;
+}
+.button{
+  color: #555;
+border-color: #ccc;
+background: #f7f7f7;
+-webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+vertical-align: top;
+display: inline-block;
+text-decoration: none;
+font-size: 14px;
+line-height: 26px;
+height: 28px;
+margin: 0;
+padding: 0 10px 1px;
+cursor: pointer;
+border-width: 1px;
+border-style: solid;
+-webkit-appearance: none;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+white-space: nowrap;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+margin-left:5px;
+} */
+.sw_error{
+	color: rgb(190, 23, 48);
+	padding: 0;
+	margin: 0 5%;
+	font-size: 13px;
+}
+#form_wait{
+	padding: 7px 1px;
+	display:none;
+}
+
+/* Start CSS */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+* {
+    /* With these codes padding and border does not increase it's width and gives intuitive style.*/
+  
+	-webkit-box-sizing: border-box;   
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
